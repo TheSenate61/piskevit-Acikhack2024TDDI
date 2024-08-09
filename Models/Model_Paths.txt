@@ -1,0 +1,5 @@
+Modellerin boyutundan ötürü drive dosyalarının linklerini ekliyorum
+
+Cosmos-Safe: https://drive.google.com/drive/folders/123sPGrCeISTFgP4z3YvieLMIE7ndRR_G?usp=sharing
+Koç-Safe: https://drive.google.com/drive/folders/149IIVW7_q27bDJEuxzLOM65BJoOnkZfN?usp=sharing
+CAL-Llama-Safe: https://drive.google.com/drive/folders/1n_hRn7IuJCye6eBkdrTWPrMsu6QT2u22?usp=sharing
