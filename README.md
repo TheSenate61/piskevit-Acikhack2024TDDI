@@ -44,9 +44,9 @@ Benchmark sonuçlarına göre modellerin güvenli ve güvensiz yanıt verme oran
 
 | Model          | UnSafe (Güvensiz) | safe (Güvenli) |
 |----------------|----------------|-------------------|
-| Koç-Digital    | %37            | %23               |
-| YTÜ-Cosmos-Llama | %0           | %92               |
-| CAL-Llama      | %94            | %6                |
+| Koç-Digital    | %48            | %96              |
+| YTÜ-Cosmos-Llama | %35           | %94              |
+| CAL-Llama      | %8         | %93                |
 
 ## Sonuçlar ve Bulgular
 
