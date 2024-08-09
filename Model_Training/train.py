@@ -14,7 +14,6 @@ alpaca_prompt = """Aşağıda, bir görevi tanımlayan bir talimat ile daha fazl
 ### Response:
 {}"""
 
-# Define the function to format prompts
 EOS_TOKEN = "<|endoftext|>"  # Adjust if your tokenizer uses a different EOS token
 def formatting_prompts_func(examples):
     instructions = examples["instruction"]
@@ -26,7 +25,7 @@ def formatting_prompts_func(examples):
         texts.append(text)
     return {"text": texts}
 
-# Function to process CSV files
+
 def process_csv(file_path):
     df = pd.read_csv(file_path)
     records = []
@@ -41,7 +40,6 @@ def process_csv(file_path):
         records.append({"instruction": instruction, "input": "", "output": response})
     return records
 
-# Function to process JSON files
 def process_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -62,7 +60,6 @@ def process_json(file_path):
             records.append({"instruction": instruction, "input": "", "output": response})
     return records
 
-# Load and process all CSV and JSON files
 def load_and_process_data(folder_path):
     all_records = []
     for file_name in os.listdir(folder_path):
@@ -73,13 +70,11 @@ def load_and_process_data(folder_path):
             all_records.extend(process_json(file_path))
     return all_records
 
-# Path to your data folder
 data_folder = "/content/drive/MyDrive/eğitimdata"
 
-# Process the data
+
 all_records = load_and_process_data(data_folder)
 
-# Convert to Dataset and apply formatting
 dataset = Dataset.from_pandas(pd.DataFrame(all_records))
 dataset = dataset.map(formatting_prompts_func, batched=True)
 
