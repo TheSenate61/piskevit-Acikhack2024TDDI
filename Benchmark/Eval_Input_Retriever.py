@@ -32,8 +32,6 @@ def preprocess_function(examples):
 
 processed_dataset = Dataset.from_pandas(questions_df).map(preprocess_function)
 
-# Use only the first 50 rows for evaluation
-processed_dataset = processed_dataset.select(range(20))
 
 # Step 4: Function to generate output
 def generate_output(instruction):
