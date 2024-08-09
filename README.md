@@ -42,7 +42,7 @@ Eğitilen modelleri test etmek için üç yöntem kullanılmıştır:
 
 Benchmark sonuçlarına göre modellerin güvenli ve güvensiz yanıt verme oranları aşağıdaki gibidir:
 
-| Model          | Safe (Güvenli) | Unsafe (Güvensiz) |
+| Model          | UnSafe (Güvensiz) | safe (Güvenli) |
 |----------------|----------------|-------------------|
 | Koç-Digital    | %37            | %23               |
 | YTÜ-Cosmos-Llama | %0           | %92               |
