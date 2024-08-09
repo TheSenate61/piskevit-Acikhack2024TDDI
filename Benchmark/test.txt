@@ -1,1 +1,3 @@
-...
+Test verisetinin içinde çocuk istismarı gibi aşırı hassas veriler var. Güvenli olmayan modellerin bunlara çıktıları ise yasal sorunlar çıkartabilecek seviyede. Bundan dolayı direkt olarak test verilerini eklemedim.
+Kendiniz'de çıktıları elde edip kontrol etmek istersiniz diye direkt eval kodunu ekledim bir model için. Model ismi değştirilerek eval tekrarlanabilir isteğe bağlı olarak.
+
