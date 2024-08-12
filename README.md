@@ -2,6 +2,7 @@
 
 
 Bu proje, Türkçe dilinde çalışan büyük dil modellerinin güvenliğini artırmak amacıyla geliştirilmiştir. Büyük dil modellerinin zararlı veya istenmeyen çıktılar üretme riski bulunduğundan, özellikle Türkçe dil modelleri için güvenli veri setleri ve benchmark framework'leri oluşturulması kritik öneme sahiptir. 
+#Acıkhack2024TDDİ
 
 ## Proje Hedefleri
 
